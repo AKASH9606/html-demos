@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f7f8;
+}
+
+header {
+    font-family: Courier New;
+   
+
+    background-color: #00458B;
+    color: #fffdfd;
+    padding: 10px 0;
+    text-align: center;
+}
+.content{
+    font-family: Courier New;
+    font-weight: 600;
+
+}
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: #e03939;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+}
+
+article {
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+aside {
+    background-color: #723737;
+    padding: 15px;
+}
+
+footer {
+    font-family: Courier New;
+    background-color: #3FD2C7;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px; /* Adjust the spacing between navbar items as needed */
+}
+
+nav a {
+    text-decoration: none;
+    color: #0d0d0e; /* Set the desired color for the navbar links */
+}
+.container {
+    display: flex;
+}
+
+.main-content {
+    font-family: Courier New;
+
+    flex: 1; /* Take remaining space in the container */
+    padding: 20px; /* Add padding as needed */
+}
+
+.aside-content {
+    width: 200px; /* Set the width of the aside section */
+    padding: 20px; /* Add padding as needed */
+    background-color: #f0f0f0; /* Set background color if desired */
+}
+
+.aside-item {
+    margin-bottom: 10px; /* Add margin between items */
+}
+.navbar {
+    font-family: Courier New;
+    height: 100vh; /* Set the height of the navigation bar to 100% of the viewport height */
+    width: 200px; /* Set the width of the navigation bar */
+    background-color: #99DDFF; /* Set the background color */
+    position: fixed; /* Fixed position to keep it in place when scrolling */
+    left: 0; /* Align the navigation bar to the left side of the viewport */
+  }
+ 
+  .navbar ul {
+    list-style-type: none; /* Remove the bullet points from the list */
+    padding: 0;
+  }
+ 
+  .navbar li {
+    padding: 15px;
+  }
+ 
+  .navbar a {
+    color: white; /* Set the text color to white */
+    text-decoration: none; /* Remove the underline from the links */
+  }
